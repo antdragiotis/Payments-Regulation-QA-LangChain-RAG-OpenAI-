@@ -38,7 +38,7 @@ The ingestion and quering of the CRR contents follows the below steps:
  
 You get pre-generated sample results the results in the *results/Sample_Results.csv* file, but the second Python file initiates a *gradio* UI service where you can insert your question and receive a relevant answer, as the screen below: 
 
-![UI](./QA_PSR_UI.png)
+![UI](https://github.com/antdragiotis/Payments-Regulation-QA-LangChain-RAG-OpenAI-/blob/main/QA_PSR_UI.PNG)
 
 ### Project Structure
 - *.py: main application code
