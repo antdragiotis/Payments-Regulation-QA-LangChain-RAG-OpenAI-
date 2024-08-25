@@ -38,7 +38,7 @@ The ingestion and quering of the CRR contents follows the below steps:
  
 You get pre-generated sample results the results in the *results/Sample_Results.csv* file, but the second Python file initiates a *gradio* UI service where you can insert your question and receive a relevant answer, as the screen below: 
 
-![Process Overview](QA_Payments_Regulation_UI.png)
+![UI](QA_Payments_Regulation_UI.png)
 
 ### Project Structure
 - *.py: main application code
