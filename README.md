@@ -42,7 +42,7 @@ You get pre-generated sample results the results in the *results/Sample_Results.
 
 ### Project Structure
 - *.py: main application code
-- source_data: directory with the source data file
+- source: directory with the source data file
 - intermediate_data: directory with intermediate data file that facilitate review of the ingestion process
 - results: directory with a sample  output file
 - README.md: project documentation
