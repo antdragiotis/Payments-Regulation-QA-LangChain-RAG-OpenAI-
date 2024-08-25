@@ -44,5 +44,5 @@ You get pre-generated sample results the results in the *results/Sample_Results.
 - *.py: main application code
 - source: directory with the source data file
 - intermediate_data: directory with intermediate data file that facilitate review of the ingestion process
-- results: directory with a sample  output file
+- results: directory with a file containing a sample questions / answers
 - README.md: project documentation
