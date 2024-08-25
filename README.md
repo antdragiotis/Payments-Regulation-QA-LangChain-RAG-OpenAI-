@@ -10,7 +10,7 @@ European regulations governing banks, payments, and financial services are both 
 The ingestion and quering of the CRR contents follows the below steps: 
 
 ![Process Overview](./QA_PSR_processes.png)
-
+https://github.com/antdragiotis/Payments-Regulation-QA-LangChain-RAG-OpenAI-/blob/main/QA_PSR_processes.PNG
 ### Features
 - **Source Data**: The application uses as source data file the **PSR_2023_6_Source.txt** which is a text file version of the European Payment Services Regulation (PSR). PSR along with the third Payment Services Directive (PSD3) are a new set of legislative proposals from the European Commission that bring changes to the foundational framework of the European payments market. The original PSR text is available at EUR-Lex (https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52023PC0367). For this  application, only the regulation articles have been retained. The introductory sections have been excluded, resulting in a focused text file to serve as the application's source data.
 - **Ingestion**: The 'Ingestion' process is performed by the *PaymentsRegulations_Ingestion.py* Python code file. This process reads the Source Data and splits the PSR text into chunks, assigning also to each chunk information about the relevant article number, article title and the regulation topic (according to the TITLES of the text). It saves this information into the *Regulation_Chunks.csv* file in the *intermediate_data* directory. Next to this, the process uses **FAISS** library to vectorize chunks text and store the results to the *FAISS_storage* directory. 
