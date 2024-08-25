@@ -1,5 +1,5 @@
 ## QA EU Payments Regulations (OpenAI, LangChain)
-This application utilizes **OpenAI** and **LangChain** under a **Retrieval Augmented Generation (RAG)** to retrieve information from the European **Payment Services Regulation (PSR)**. 
+This application utilizes **OpenAI** and **LangChain** under **Retrieval Augmented Generation (RAG)** to retrieve information from the European **Payment Services Regulation (PSR)**. 
 **RAG** is an approach that combines the strengths of retrieval-based models and generation-based modelsto improve  accuracy and relevance of generated text by leveraging external information sources. 
 Initially, the **PSR** text is embedded and stored for efficient retrieval though the functionality of **FAISS** library. A secondary process then uses this embedded data, combined with **OpenAI** services, to identify the most relevant information in response to user queries, and formulate a final answer in natural language.
 
