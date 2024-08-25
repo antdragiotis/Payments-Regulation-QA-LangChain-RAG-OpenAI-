@@ -9,7 +9,7 @@ European regulations governing banks, payments, and financial services are both 
 ### Process Overview 
 The ingestion and quering of the CRR contents follows the below steps: 
 
-![Process Overview](./QA_Payments_Regulation_processes.png)
+![Process Overview](./QA_PSR_processes.png)
 
 ### Features
 - **Source Data**: The application uses as source data file the **PSR_2023_6_Source.txt** which is a text file version of the European Payment Services Regulation (PSR). PSR along with the third Payment Services Directive (PSD3) are a new set of legislative proposals from the European Commission that bring changes to the foundational framework of the European payments market. The original PSR text is available at EUR-Lex (https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52023PC0367). For this  application, only the regulation articles have been retained. The introductory sections have been excluded, resulting in a focused text file to serve as the application's source data.
@@ -38,7 +38,7 @@ The ingestion and quering of the CRR contents follows the below steps:
  
 You get pre-generated sample results the results in the *results/Sample_Results.csv* file, but the second Python file initiates a *gradio* UI service where you can insert your question and receive a relevant answer, as the screen below: 
 
-![UI](./QA_Payments_Regulation_UI.png)
+![UI](./QA_PSR_UI.png)
 
 ### Project Structure
 - *.py: main application code
